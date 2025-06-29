@@ -1,0 +1,12 @@
+cat <<EOF > .gitignore
+/log/*
+/tmp/*
+/vendor/bundle
+/.bundle
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/assets
+.byebug_history
+node_modules
+yarn-error.log
+EOF
